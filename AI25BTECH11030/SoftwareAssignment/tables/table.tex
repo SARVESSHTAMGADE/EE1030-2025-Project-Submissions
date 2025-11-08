@@ -1,0 +1,35 @@
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Image} & \textbf{$k$} & $\boldsymbol{\|A\|_F}$ & $\boldsymbol{\|A-A_k\|_F}$ & \textbf{Frobenius Error} \\
+\hline
+einstein img & 5   & 85.525892 & 18.483681 & 0.216118 \\ 
+einstein img & 10  & 85.525892 & 12.740455 &0.148966\\ 
+einstein img & 20  & 85.525892 & 8.338977  & 0.097502 \\ 
+einstein img & 50  & 85.525892 & 3.452358  & 0.040366 \\ 
+einstein img & 100 & 85.525892 & 0.646203  & 0.007556 \\
+einstein img & 150 & 85.525892 & 0.037726   & 0.000441 \\
+\hline
+globe img & 5   & 620.833352 & 81.191739 & 0.130779 \\ 
+globe img & 10  & 620.833352 & 59.060682 & 0.095131 \\ 
+globe img & 20  & 620.833352 & 41.701659  & 0.067170 \\ 
+globe img & 50  & 620.833352 & 24.255740  & 0.039070 \\ 
+globe img & 100 & 620.833352 & 14.402747  & 0.023199 \\
+globe img & 150 & 620.833352 & 9.784638   & 0.015760 \\
+globe img & 200 & 620.833352 & 7.010685   & 0.011292 \\
+globe img & 300 & 620.833352 & 3.853347   & 0.006207 \\
+\hline
+greyscale img & 5   & 760.054821 & 43.748707 & 0.057560 \\ 
+greyscale img & 10  & 760.054821 & 28.182786 & 0.037080 \\ 
+greyscale img & 20  & 760.054821 & 14.977763  & 0.019706 \\ 
+greyscale img & 50  & 760.054821 & 4.668592  & 0.006142 \\ 
+greyscale img & 100 & 760.054821 & 2.244704  & 0.002953 \\
+greyscale img & 150 & 760.054821 & 1.998580   & 0.002630 \\
+greyscale img & 200 & 760.054821 & 1.785526   & 0.002349 \\
+greyscale img & 300 & 760.054821 & 1.408952   & 0.001854 \\
+greyscale img & 400 & 760.054821 & 1.083291   & 0.001425 \\
+\hline
+\end{tabular}
+\caption{Frobenius norm, approximation error for different singular value selections $k$ on each image.}
+\end{table}
